@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+# brume
 
-You can use the [editor on GitHub](https://github.com/pjhope/pjhope.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I am not a designer so I cannot impress you with breathtaking Jekyll themes, but brume is something that just came to my mind and I had to build it. It is a clean and simple theme, which has an index page that lists all your blog posts divided by the year, a single post page and a layout for any additional pages you might need.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is how the "Home" page looks like.
 
-### Markdown
+![Home](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/home.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+And this is a single post.
 
-```markdown
-Syntax highlighted code block
+![Post](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_1.png)
 
-# Header 1
-## Header 2
-### Header 3
+![Post. More content examples.](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_2.png)
 
-- Bulleted
-- List
+## Usage
 
-1. Numbered
-2. List
+Brume can be installed just like any other Jekyll theme as described [here](https://jekyllrb.com/docs/themes/#installing-a-theme),
+but there are a couple of additional steps you have to take.
 
-**Bold** and _Italic_ and `Code` text
+1. All the links are defined in a file *_data/links.yml*, therefore you'll have to create a *_data*
+directory and put this file there in order for navigation to be displayed.
+2. Brume uses `home` layout for the home page (like the default Jekyll theme). All you need to do
+is create an *index.html* or *index.md* file with `layout: home`. If you want the home page to be
+listed in the navigation you have to add `title` to it's front matter that matches
+the title you used for the home page link in the *links.yml* file. Titles are used to indicate
+the current page.
 
-[Link](url) and ![Image](src)
-```
+## Theme customization
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+This theme has 4 predefined colors that can be used for links:
 
-### Jekyll Themes
+- azul
+- ruby
+- amber
+- avocado
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pjhope/pjhope.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+By default it uses *avocado*, but if you want to select another one just change the `color_scheme` setting in
+*_config.yml* file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Express your thoughts about brume on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make it better!

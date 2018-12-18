@@ -1,1 +1,13 @@
-theme: jekyll-theme-minimal
+title: pj_hope__
+author: pj_hope__
+description: 愿风指引你的道路！
+
+highlighter: null
+permalink: /:title
+
+url:
+baseurl:
+
+# Custom options:
+# color_scheme: azul|ruby|amber|avocado
+# color_scheme: avocado
