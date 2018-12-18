@@ -1,3 +1,18 @@
+---
+title: "Deep Learning Review"
+layout: post
+date: 2018-12-24 22:44
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- markdown
+- elements
+star: true
+category: blog
+author: pj_hope__
+description: Markdown summary with different options
+---
+
 ### 深度学习概要
 > 深度学习使用多层抽象来学习数据表征，目前在推荐、视觉、目标检测、甚至在药物探索及基因方向上都有了突破性的进展。深度学习通过反向传播算法来发现海量数据中的复杂结构去更新模型中的参数。
 
