@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
+{% include header.html %}
 
-<article class="single row gutters">
-  <h2>{{ page.title }}</h2>
+{{content}}
 
-  {{ content }}
-</article>
+{% include footer.html %}
